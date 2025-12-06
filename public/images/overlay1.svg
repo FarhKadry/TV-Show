@@ -1,0 +1,25 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_34_174" fill="white">
+<path d="M0 0H1280V720H0V0Z"/>
+</mask>
+<path d="M0 0H1280V720H0V0Z" fill="url(#paint0_linear_34_174)"/>
+<path d="M0 0H1280V720H0V0Z" fill="url(#paint1_linear_34_174)"/>
+<path d="M1280 720V721H1281V720H1280ZM0 720H-1V721H0V720ZM1280 0H1279V720H1280H1281V0H1280ZM1280 720V719H0V720V721H1280V720ZM0 720H1V0H0H-1V720H0Z" fill="url(#paint2_radial_34_174)" mask="url(#path-1-inside-1_34_174)"/>
+<defs>
+<linearGradient id="paint0_linear_34_174" x1="656.943" y1="-262.762" x2="656.943" y2="720" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-color="#060F16"/>
+</linearGradient>
+<linearGradient id="paint1_linear_34_174" x1="1091.44" y1="360" x2="1.37852e-08" y2="360" gradientUnits="userSpaceOnUse">
+<stop stop-color="#060F16" stop-opacity="0"/>
+<stop offset="1" stop-color="#060F16"/>
+</linearGradient>
+<radialGradient id="paint2_radial_34_174" cx="0" cy="0" r="1" gradientTransform="matrix(0 587.368 -15739.6 -12014.9 641.989 385.715)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4959EC" stop-opacity="0"/>
+<stop offset="0.172108" stop-color="#838AC7"/>
+<stop offset="0.495676" stop-color="#0F1327" stop-opacity="0.8"/>
+<stop offset="0.812641" stop-color="#E44712"/>
+<stop offset="1" stop-color="#4959EC" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

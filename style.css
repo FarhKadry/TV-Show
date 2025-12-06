@@ -14,3 +14,25 @@ body{
     margin: 0;
     object-fit: cover;
 }
+video::-internal-media-controls-download-button {
+    display:none;
+}
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
