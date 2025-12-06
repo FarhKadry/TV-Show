@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--mainaccent);
+    font-family: Alegreya Sans;
+}
+body{
+    overflow-x: hidden;
+}
+.scene1{
+    width:100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
