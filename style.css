@@ -318,6 +318,7 @@ button{
     display: flex;
     align-items: center;
     gap: 95px;
+    margin-top: 22px;
 }
 .charImg{
     position: absolute;
@@ -358,4 +359,14 @@ button{
 }
 .charCard:hover .charImg {
     filter: saturate(1) drop-shadow(0 4px 9px rgba(219, 141, 147, 0.10));
+}
+.container2{
+    width: 520px;
+height: 388px;
+background-image: url(public/images/container2.svg);
+}
+.sectionsFlex2{
+    width: 100%;
+    max-width: 1140px;
+    justify-content: space-between;
 }
