@@ -1,7 +1,16 @@
+:root{
+    --mainAccent: #C1121F;
+    --navyBg1:#060F16;
+    --navyBg2: #060E14;
+    --glow: 0 4px 9.4px 0 rgba(219, 141, 147, 0.40);
+    --grey:#CBCBCD;
+    --accent2:#F03E4C;
+    --gradient1: radial-gradient(533.11% 170.22% at 59.89% -53.94%, #838AC7 17.21%, rgba(15, 19, 39, 0.80) 49.57%, #C1121F 81.26%);
+}
 *{
     margin: 0;
     padding: 0;
-    color: var(--mainaccent);
+    color: var(--mainAccent);
     font-family: "Chakra Petch";
 }
 body{
@@ -62,4 +71,31 @@ height: 129.913px;
     z-index: -1;
     top: 0;
     left: 0;
+}
+h1{
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 98%;
+}
+h2{
+    font-size: 36px;
+    text-shadow: 0 4px 9.4px rgba(219, 141, 147, 0.40);
+    font-style: italic;
+    font-weight: 700;
+}
+h3{
+    font-size: 24px;
+    color: var(--accent2);
+    font-weight: 700;
+    line-height: 98%;
+}
+h6{
+    font-size: 16px;
+     color: var(--grey);
+}
+p{
+    color: var(--grey);
+    font-size: 24px;
+    font-weight: 400;
 }
