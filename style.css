@@ -330,6 +330,8 @@ button{
 .charCard{
     display: flex;
     flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
     width: 151px;
     gap: 12px;
     height: 257px;
