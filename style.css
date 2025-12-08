@@ -242,6 +242,10 @@ button{
     align-items: center;
     justify-content: center;
 }
+.sheildContainer .sheild{
+    width: 357px;
+    height: 357px;
+}
 .sheildBg{
     position: absolute;
     width: 100%;
@@ -252,6 +256,9 @@ button{
 }
 .rotateanim{
     animation: rotate 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.rotateanim2{
+    animation: rotate2 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .scroll_animate{
     view-timeline: --scroll-tl;
@@ -265,5 +272,14 @@ button{
     }
     to {
         transform: rotate(360deg);
+    }
+}
+@keyframes rotate2{
+    from {
+        transform: rotate(360deg);
+        
+    }
+    to {
+        transform: rotate(0deg);
     }
 }
