@@ -20,6 +20,22 @@
 body{
     overflow-x: hidden;
     width: 100vw;
+    background: var(--navyBg1);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: var(--glow);
+background: var(--navyBg2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gradient1);
 }
 .scene1{
     width:100%;
