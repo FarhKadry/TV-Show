@@ -232,3 +232,38 @@ button{
     height: 60px;
     width: auto;
 }
+.sheildContainer{
+    width: 472px;
+    height: 472px;
+    max-width: 472px;
+    max-height: 472px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sheildBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+}
+.rotateanim{
+    animation: rotate 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+.scroll_animate{
+    view-timeline: --scroll-tl;
+    animation-timeline: --scroll-tl;
+    animation-delay: cover 10%;
+    animation-range: cover 10% cover 35%;
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
