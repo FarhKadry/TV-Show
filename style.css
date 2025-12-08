@@ -203,7 +203,7 @@ button{
     align-items: center;
     gap: 54px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     margin: 108px auto 0 auto;
     max-width: 1280px;
 }
@@ -282,4 +282,32 @@ button{
     to {
         transform: rotate(0deg);
     }
+}
+.charsSection{
+    width: 1140px;
+    height: 547px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(public/images/largeSecCont.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.text_align_center{
+    text-align: center;
+}
+.charsFlex{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    align-self: stretch;
 }
