@@ -370,3 +370,29 @@ background-image: url(public/images/container2.svg);
     max-width: 1140px;
     justify-content: space-between;
 }
+.moveIn{
+    position: relative;
+    transform: translateY(100px);
+    animation: move-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes move-in{
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.scroll_animate2{
+    view-timeline: --scroll-tl;
+    animation-timeline: --scroll-tl;
+    animation-delay: cover 30%;
+    animation-range: cover 30% cover 35%;
+}
