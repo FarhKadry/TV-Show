@@ -17,23 +17,69 @@
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 }
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    background: rgba(8, 16, 22, 0.20);
+    backdrop-filter: blur(4px);
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    padding: 8px 0 8px 72px;
+    box-sizing: border-box;
+}
+.logo_header{
+    width: 83px;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    list-style: none;
+}
+nav ul li {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    padding: 0 22px;
+}
+nav ul li img{
+    width: 9px;
+    height: 31px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: 0.5;
+}
 body{
     overflow-x: hidden;
     width: 100vw;
     background: var(--navyBg1);
 }
-/* width */
 ::-webkit-scrollbar {
   width: 5px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: var(--glow);
 background: var(--navyBg2);
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--gradient1);
 }
@@ -54,7 +100,7 @@ background: var(--navyBg2);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 250px;
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
@@ -128,7 +174,6 @@ p{
 button{
     border: none;
     outline: none;
-
 }
 .button1 {
     display: flex;
@@ -147,4 +192,13 @@ button{
 .button1:hover {
     background: var(--navyBg2);
     box-shadow: var(--glow2);
+}
+
+.sectionsFlex{
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 108px;
 }
