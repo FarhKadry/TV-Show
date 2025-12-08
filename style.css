@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     color: var(--mainaccent);
-    font-family: Alegreya Sans;
+    font-family: "Chakra Petch";
 }
 body{
     overflow-x: hidden;
+    width: 100vw;
 }
 .scene1{
-    width:100vw;
+    width:100%;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -25,6 +26,9 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 150px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 .overlay1{
     width: 110%;
@@ -42,8 +46,8 @@ body{
     height: 479px;
     padding: 131px 0 73px 0;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    gap: 100px;
     position: relative;
     z-index: 2;
 }
