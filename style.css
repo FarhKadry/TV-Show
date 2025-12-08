@@ -2,7 +2,9 @@
     --mainAccent: #C1121F;
     --navyBg1:#060F16;
     --navyBg2: #060E14;
-    --glow: 0 4px 9.4px 0 rgba(219, 141, 147, 0.40);
+    --buttonbg:#101925;
+    --glow: 0 4px 8px 0 rgba(219, 141, 147, 0.40);
+    --glow2: 0 4px 12px 0 rgba(219, 141, 147, 0.6);
     --grey:#CBCBCD;
     --accent2:#F03E4C;
     --gradient1: radial-gradient(533.11% 170.22% at 59.89% -53.94%, #838AC7 17.21%, rgba(15, 19, 39, 0.80) 49.57%, #C1121F 81.26%);
@@ -12,6 +14,8 @@
     padding: 0;
     color: var(--mainAccent);
     font-family: "Chakra Petch";
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
 }
 body{
     overflow-x: hidden;
@@ -98,4 +102,33 @@ p{
     color: var(--grey);
     font-size: 24px;
     font-weight: 400;
+}
+.button-wrapper {
+    width: fit-content;
+    padding: 0 7px 0 9px;
+    border-radius: 34px;
+    background: var(--gradient1);
+}
+button{
+    border: none;
+    outline: none;
+
+}
+.button1 {
+    display: flex;
+    width: 217px;
+    padding: 10px;
+    font-size: 24px;
+    justify-content: center;
+    border-radius: 34px;
+    background: var(--buttonbg);
+    box-shadow: var(--glow);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+}
+.button1:hover {
+    background: var(--navyBg2);
+    box-shadow: var(--glow2);
 }
