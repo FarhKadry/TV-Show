@@ -729,3 +729,18 @@ form label{
 input:focus{
     border: 1px solid var(--mainAccent);
 }
+.cart{
+    display: none;
+    align-items: flex-end;
+    justify-content: end;
+}
+.cartCont{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    right: 0;
+    top: 0;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: var(--mainAccent);
+}

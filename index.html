@@ -19,12 +19,24 @@
             </div>
             </div>
     </div>
+    <div id="mainCart" class="popUp cart">
+        <div class="cartCont">
+            <img class="iconBtn" onclick="closeCart()" class="closeBtn" src="public/images/closeicon.svg" alt="">
+            <h3>Your Cart</h3>
+            <div id="cartItems">
+                <!-- CART ITEMS HERE -->
+            </div>
+            <div class="button-wrapper">
+                <button class="button1">Checkout</button>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="header_container">
             <div class="logoContainer">
             <img class="header_logo" src="public/images/marvelLogo.svg" alt="Captain America Shield" >
                 <a href="login.html"><img class="iconBtn" src="public/images/profile.svg"></a>
-                <a href="#"><img class="iconBtn" src="public/images/cart.svg"></a>
+                <a onclick="openCart()"><img class="iconBtn" src="public/images/cart.svg"></a>
             </div>
             <nav id="navArray">
                 <ul>

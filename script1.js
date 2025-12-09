@@ -111,9 +111,7 @@ function add(numbers) {
   document.getElementById(numbers).innerHTML = ++number;
 };
 
-function closeCart() {
-  document.getElementById('advert').style.display ="none";
-};
+
 function login(){
     let  Uname = document.getElementById("Uname").value;
     let  Upass = document.getElementById("Upass").value;
@@ -153,3 +151,9 @@ document.getElementById("footerCont").innerHTML=`
             <img class="logo" src="public/images/marvelLogo.svg" alt="">
         </div>
 `
+function openCart(){
+    document.getElementById("mainCart").style.display="flex";
+}
+function closeCart() {
+  document.getElementById('mainCart').style.display ="none";
+};
