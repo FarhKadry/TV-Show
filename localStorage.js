@@ -2,7 +2,7 @@ let charDetails = [
     {
         name: "CPt. america",
         img: "public/images/char1.png",
-        job: "Super Soldier",
+        job: "Super Soldier . Avenger . Leader",
         icon: "public/images/stariconred.svg",
         bio: `Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war-mongering organization while trying to save his best friend Bucky Barnes from a brainwashing program.`,
         vid:"public/images/clip01.mp4",
@@ -12,7 +12,7 @@ let charDetails = [
     {
         name: "Winter sodier",
         img: "public/images/char2.png",
-        job: "Assassin",
+        job: "Assassin ",
         icon: "public/images/stariconred.svg",
         bio: ` a brainwashed HYDRA assassin, Steve Rogers' long-lost best friend, revealed as the perpetrator behind attacks on S.H.I.E.L.D., ultimately confronting Captain America and Black Widow, leading to the unveiling of HYDRA's infiltration and his eventual confrontation with his past as he started to break free from mind control.`,
         vid:"public/images/clip02.mp4",
