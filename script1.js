@@ -2,22 +2,18 @@ let navItems = [
     {
         id: "start",
         name: "START",
-        icon: "public/images/headericon.svg"
     },
     {
         id: "story",
         name: "Story",
-        icon: "public/images/headericon.svg"
     },
     {
         id: "chars",
         name: "Characters",
-        icon: "public/images/headericon.svg"
     },
     {
         id: "quotesSec",
         name: "Quotes",
-        icon: "public/images/headericon.svg"
     }
 ];
 
@@ -26,7 +22,7 @@ let navUl = document.getElementById('navArray').querySelector('ul');
 for (let i = 0; i < navItems.length; i++) {
     navUl.innerHTML += `
     <li>
-        <img src="${navItems[i].icon}">
+        <img src="public/images/headericon.svg">
         <a href="#${navItems[i].id}">
             ${navItems[i].name}
         </a>
@@ -107,3 +103,8 @@ function add(numbers) {
   let number = document.getElementById(numbers).innerHTML;
   document.getElementById(numbers).innerHTML = ++number;
 };
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("preLoader").style.display = "none";
+  }, 3000);
+});

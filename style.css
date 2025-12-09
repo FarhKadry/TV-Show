@@ -601,3 +601,26 @@ footer .logo{
     font-weight: 500;
     margin-top: 12px;
 }
+.popUp{
+    width: 100vw;
+    height: 100vh;
+    background: #0000008c;
+    top:0px;
+    left: 0; 
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.preLoader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.preLoader img{
+    width: 144px;
+    height: 144px;
+}
