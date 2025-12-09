@@ -108,3 +108,6 @@ window.addEventListener("load", () => {
     document.getElementById("preLoader").style.display = "none";
   }, 3000);
 });
+function closeCart() {
+  document.getElementById('advert').style.display ="none";
+};

@@ -38,8 +38,8 @@ header{
     box-sizing: border-box;
 }
 .logo_header{
-    width: 83px;
-    height: auto;
+    width: auto;
+    height: 36px;
 }
 nav ul{
     display: flex;
@@ -65,6 +65,7 @@ nav ul li img{
 a{
     text-decoration: none;
     color: white;
+    height: inherit
 }
 a:hover{
     opacity: 0.5;
@@ -625,12 +626,14 @@ footer .logo{
     height: 144px;
 }
 .typewriter h6 {
+    font-size: 18px;
+    font-style: italic;
   overflow: hidden;
     border-right: 1px solid var(--mainAccent);
     white-space: nowrap;
     margin: 0 auto 32px auto;
     letter-spacing: 1px;
-    animation: typing 1.5s steps(40, end) 1s forwards, blink-caret .75s step-end infinite 2s;
+    animation: typing 1.5s steps(40, end) forwards, blink-caret .75s step-end infinite 2s;
 }
 @keyframes blink-caret {
     from,
@@ -649,4 +652,21 @@ footer .logo{
     to {
         width: 100%
     }
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+.iconBtn{
+    width: auto;
+    height: 36px;
+}
+.close{
+    align-self: flex-end;
+    justify-self: flex-start;
+    width: 42px;
+    height: 42px;
+    padding: 0;
 }
