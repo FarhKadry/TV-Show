@@ -742,5 +742,21 @@ input:focus{
     top: 0;
     align-self: flex-end;
     justify-self: flex-end;
+    align-items: center;
     background-color: var(--mainAccent);
+    display: flex;
+    flex-direction: column;
+}
+.cartitems{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.cartitems img{
+    width: 42px;
+    height: auto;
+}
+.closeBtn{
+    align-self: flex-start;
+    justify-self: flex-start;
 }

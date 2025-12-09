@@ -21,13 +21,10 @@
     </div>
     <div id="mainCart" class="popUp cart">
         <div class="cartCont">
-            <img class="iconBtn" onclick="closeCart()" class="closeBtn" src="public/images/closeicon.svg" alt="">
+            <img class="iconBtn closeBtn" onclick="closeCart()" src="public/images/closeicon.svg" alt="">
             <h3>Your Cart</h3>
-            <div id="cartItems">
+            <div class="cartitems" id="cartItems">
                 <!-- CART ITEMS HERE -->
-            </div>
-            <div class="button-wrapper">
-                <button class="button1">Checkout</button>
             </div>
         </div>
     </div>
@@ -118,9 +115,9 @@
                 <h6>2014</h6>
                 <h3>THE WINTER SODIER</h3>
                 <div class="cart_buttonflex">
-                            <button onclick="sub('number4')" class=" button3">-</button>
-                            <h3 id="number4">0</h3>
-                            <button onclick="add('number4')" class=" button3">+</button>
+                            <button onclick="sub('number')" class=" button3">-</button>
+                            <h3 id="number">0</h3>
+                            <button onclick="add('number', 'Winter Soldier DVD')" class="button3">+</button>
                         </div>
             </div>
             <span><div></div></span>

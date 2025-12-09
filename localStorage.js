@@ -55,4 +55,13 @@ let users = [
         Upass: 123456,
     },
 ]
-localStorage.setItem("localUsers", JSON.stringify(users))
+localStorage.setItem("localUsers", JSON.stringify(users));
+
+// CART FUNC
+localStorage.setItem('cart', JSON.stringify(cart));
+function displayCart() {
+    let cartDiv = document.getElementById('cartItems');
+    if (cart.length === 0) {
+        cartDiv.innerHTML = '<p>Cart is empty!</p>';
+        return;
+    }}
