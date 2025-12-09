@@ -507,24 +507,24 @@ footer .logo{
 }
 .footerItem2 h2{
     font-style: normal;
-    
 }
 .heroContent2{
     display: flex;
     flex-direction: row;
     width: 100%;
     padding-left: 0;
-    align-self: flex-start;
+    padding-top: 0;
     justify-self: flex-start;
+     align-self: center;
 }
 .characterImg{
-    height: 588px;
+    height: 90vh;
     width: auto;
 }
 .charDetails{
     display: flex;
-width: 693px;
-flex-direction: column;
-align-items: flex-start;
-gap: 22px;
+    width: 693px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
 }
