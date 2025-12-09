@@ -417,7 +417,7 @@ background-image: url(public/images/container2.svg);
     width: 137px;
 }
 .inactive_movie{
-    opacity: 0.5;
+    opacity: 0.8;
     filter: contrast(1);
 }
 .movieCard h3{
@@ -426,4 +426,16 @@ background-image: url(public/images/container2.svg);
     text-align: center;
     font-style: italic;
     text-wrap: nowrap;
+}
+.movielineup span{
+    height:207px ;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.movielineup span div{
+    height: 1px;
+    background: var(--mainAccent);
+    width: 137px;
 }
