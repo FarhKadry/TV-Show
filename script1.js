@@ -45,7 +45,6 @@ for (let i = 0; i < charCardDeets.length; i++) {
 ];
     let randomQuote = Math.floor(Math.random() * quote.length);
     document.getElementById("Quote").innerHTML = quote[randomQuote];
-
 let funFacts = [
     `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
     `The Russo Brothers used practical effects and real stunt work wherever possible, with Chris Evans performing many of his own stunts.`,
