@@ -670,3 +670,24 @@ footer .logo{
     height: 42px;
     padding: 0;
 }
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--)var(--mainAccent);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.form input{
+    border-radius: 6px;
+    background: var(--navyBg2);
+    border: solid 1px var(--);
+    padding: 21px 10px 21px 20px;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;;
+    box-sizing: border-box;
+}

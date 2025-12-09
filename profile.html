@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="public/images/CapSheild.png">
+    <title>CAPTAIN AMERICA: THE WINTER SOLDIER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="preLoader" class="popUp">
+            <div class="preLoader">
+                <img  class="rotateanim3" src="public/images/CapSheild.png" alt="">
+            <div class="typewriter">
+                <h6>loading...</h6>
+            </div>
+            </div>
+        </div>
+    <header>
+        <div class="header_container">
+            <div class="logoContainer">
+            <img class="header_logo" src="public/images/marvelLogo.svg" alt="Captain America Shield" >
+                <a href="profile.html"><img class="iconBtn" src="public/images/profile.svg"></a>
+                <a href="profile.html"><img class="iconBtn" src="public/images/cart.svg"></a>
+            </div>
+            <nav id="navArray">
+                <ul>
+                    <!-- HEADERCONTENT -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="start" class="hero">
+        <div class="sectionsFlex">
+            
+            <section id="quotesSec" class="sectionsFlex sectionsFlex2 scroll_animate2 moveIn">
+        <div class="container1 container2">
+            <img class="icon1" src="public/images/icon2.svg" alt="">
+            <h2>username</h2>
+            <p id="Uname">
+                <h1>hi!</h1>
+            </p>
+        </div>
+        <video class="scene1" src="public/images/scene1.mp4" autoplay muted loop></video>
+        <img class="overlay1" src="public/images/overlay1.svg" alt="Overlay Image 1">
+    </section>
+        <div class="flex_column">
+                <img class="illus1" src="public/images/illustration1.svg" alt="">
+                <h2 class="text_align_center">
+                captain america:
+            </h2>
+            <h3 class="text_align_center"><i>The trilogy</i></h3>
+            <h4 class="text_align_center cta1"><i>get your DVD now!</i></h4>
+            </div>
+        <div class="movielineup">
+            <div class="movieCard">
+                <img class="inactive_movie" src="public/images/mov01.jpg" alt="">
+                <h6>2012</h6>
+                <h3>THE FIRST AVENGER</h3>
+            </div>
+            <span><div></div></span>
+            <div class="movieCard">
+                <img src="public/images/mov02.jpg" alt="">
+                <h6>2014</h6>
+                <h3>THE WINTER SODIER</h3>
+                <div class="cart_buttonflex">
+                            <button onclick="sub('number4')" class=" button3">-</button>
+                            <h3 id="number4">0</h3>
+                            <button onclick="add('number4')" class=" button3">+</button>
+                        </div>
+            </div>
+            <span><div></div></span>
+            <div class="movieCard">
+                <img class="inactive_movie" src="public/images/mov03.jpg">
+                <h6>2016</h6>
+                <h3>CIVIL WAR</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="sectionsFlex">
+        <div class="footer_container">
+            <div class="flex_column footerItem">
+            <h2>Always on <br> your left.</h2>
+            <h3>© 2025 <br> MarveI. <br> All rights <br> reserved.</h3>
+        </div>
+        <div class="footer_sheildCont">
+            <div>
+            <img class=" rotateanim3" src="public/images/CapSheild.png" alt="">
+            </div>
+        </div>
+        <div class="flex_column footerItem footerItem2">
+            <h2>Our Socials</h2>
+            <div class="socials">
+                <a href="#"><img src="public/images/facebook.svg"></a>
+                <a href="#"><img src="public/images/twitter.svg"></a>
+                <a href="#"><img src="public/images/Vector.svg"></a>
+            </div>
+            <img class="logo" src="public/images/marvelLogo.svg" alt="">
+        </div>
+        </div>
+    </footer>
+    <script src="localStorage.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>

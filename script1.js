@@ -111,3 +111,23 @@ window.addEventListener("load", () => {
 function closeCart() {
   document.getElementById('advert').style.display ="none";
 };
+function login(){
+    let  Uname = document.getElementById("Uname").value;
+    let  Upass = document.getElementById("Upass").value;
+    
+    let localUsers = JSON.parse(localStorage.getItem("localUsers"))
+    for(let i = 0; i<localUsers.length; i++){
+        if( Uname == localUsers[i].Uname && Upass == localUsers[i].Upass ){
+        window.location="profile.html"
+    }
+    
+    else{
+        document.getElementById("err").innerHTML=`<h6>Error!</h6>`
+        document.getElementById("err").style.display="inline-block"
+    }
+    }
+
+    
+    localStorage.setItem("localName", Uname);
+    localStorage.setItem("localPass", Upass);
+}

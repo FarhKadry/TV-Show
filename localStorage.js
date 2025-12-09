@@ -41,3 +41,14 @@ let charDetails = [
     }
 ]
 localStorage.setItem("localCharacters", JSON.stringify(charDetails));
+let users = [
+    {
+        Uname: "farh",
+        Upass: 123,
+    },
+    {
+        Uname: "zeina",
+        Upass: 123,
+    },
+]
+localStorage.setItem("localUsers", JSON.stringify(users))
