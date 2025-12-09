@@ -405,7 +405,8 @@ background-image: url(public/images/container2.svg);
 }
 .movielineup{
     display: flex;
-    width: 688px;
+    width: 800px;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 0;
@@ -422,9 +423,11 @@ background-image: url(public/images/container2.svg);
     justify-content: center;
     gap: 12px;
     width: 137px;
+    max-height: 273px;
+    align-self: baseline;
 }
 .inactive_movie{
-    opacity: 0.8;
+    opacity: 0.5;
     filter: contrast(1);
 }
 .movieCard h3{
@@ -569,4 +572,32 @@ footer .logo{
     opacity: 0.8;
     width: 1065px;
     height: 416px;
+}
+.button3{
+    display: flex;
+    background-color: var(--mainAccent);
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--unchangedText);
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 24px;
+}
+.cart_buttonflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 12px;
+    width: 100%;
+    border-top:1.5px solid var(--secondaryText);
+}
+.cta1{
+    font-weight: 500;
+    margin-top: 12px;
 }
