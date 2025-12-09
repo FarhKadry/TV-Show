@@ -17,3 +17,8 @@ document.getElementById("characterDeets").innerHTML = `
         </div>
     </div>
 `;
+document.getElementById("charVidContainer").innerHTML = `
+    <video class="scene1" autoplay muted loop>
+        <source src="${selectedChar.vid}" type="video/mp4">
+    </video>
+`;
