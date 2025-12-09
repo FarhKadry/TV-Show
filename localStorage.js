@@ -1,7 +1,7 @@
 let charDetails = [
     {
         name: "CPt. america",
-        img: "public/images/charImg01.png",
+        img: "public/images/char1.png",
         job: "Super Soldier",
         icon: "public/images/stariconred.svg",
         bio: `Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war-mongering organization while trying to save his best friend Bucky Barnes from a brainwashing program.`,
@@ -11,7 +11,7 @@ let charDetails = [
     },
     {
         name: "Winter sodier",
-        img: "public/images/charImg01.png",
+        img: "public/images/char2.png",
         job: "Assassin",
         icon: "public/images/stariconred.svg",
         bio: ` a brainwashed HYDRA assassin, Steve Rogers' long-lost best friend, revealed as the perpetrator behind attacks on S.H.I.E.L.D., ultimately confronting Captain America and Black Widow, leading to the unveiling of HYDRA's infiltration and his eventual confrontation with his past as he started to break free from mind control.`,
@@ -21,7 +21,7 @@ let charDetails = [
     },
     {
         name: "Black widow",
-        img: "public/images/charImg01.png",
+        img: "public/images/char3.png",
         job: "avenger . SHEILD Agent . ex-Assasin . ex-spy ",
         icon: "public/images/stariconred.svg",
         bio: `a top S.H.I.E.L.D. agent working alongside Cap, revealing her spy skills while confronting HYDRA's infiltration, facing her past as a Red Room assassin, and ultimately exposing HYDRA's control over S.H.I.E.L.D., which leads to her becoming a fugitive but also freeing herself from her manipulative past by releasing classified files, proving her deep loyalty and complex heroism. `,
@@ -31,7 +31,7 @@ let charDetails = [
     },
     {
         name: "the falcon",
-        img: "public/images/charImg01.png",
+        img: "public/images/char4.png",
         job: "avenger . SHEILD Agent",
         icon: "public/images/stariconred.svg",
         bio: `Sam Wilson was a former United States Air Force pararescue airman. He left active duty after his wingman, Riley, was killed in action, and subsequently began working as a counselor, helping other veterans deal with post-traumatic stress disorder (PTSD).`,
@@ -40,3 +40,4 @@ let charDetails = [
         fact: `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
     }
 ]
+localStorage.setItem("localCharacters", JSON.stringify(charDetails));

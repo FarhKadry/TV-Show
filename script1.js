@@ -24,12 +24,16 @@ let charCardFlex = document.getElementById("charCardFlex");
 
 for (let i = 0; i < charCardDeets.length; i++) {
     charCardFlex.innerHTML += `
-        <div class="charCard">
+        <div class="charCard" onclick="openChar(${i})">
             <img class="icon" src="${charCardDeets[i].icon}">
             <img class="charImg" src="${charCardDeets[i].img}">
             <h3>${charCardDeets[i].name}</h3>
         </div>
     `;
+}
+function openChar(index){
+    localStorage.setItem("charIndex", index);
+    window.location.href = "character.html";
 }
 
  let quote = [
