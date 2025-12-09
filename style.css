@@ -124,12 +124,14 @@ video{
     display: flex;
     width: 700px;
     height: 479px;
-    padding: 131px 0 73px 0;
+    padding: 70px 0 73px 0;
     flex-direction: column;
     align-items: center;
     gap: 100px;
     position: relative;
     z-index: 2;
+    box-sizing: border-box;
+    align-self: flex-end;
 }
 .logo{
     width: 505.513px;
@@ -670,17 +672,20 @@ footer .logo{
     height: 42px;
     padding: 0;
 }
-.form{
+form{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid var(--)var(--mainAccent);
+    border: 1px solid var(--mainAccent);
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 32px;
     box-sizing: border-box;
+    z-index: 4;
 }
-.form input{
+form input{
     border-radius: 6px;
     background: var(--navyBg2);
     border: solid 1px var(--);
@@ -688,6 +693,28 @@ footer .logo{
     flex: 1;
     border: none;
     outline: none;
-    font-size: 14px;;
+    font-size: 14px;
     box-sizing: border-box;
+    width: 100%;
+}
+form label{
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+}
+.errorMsg{
+    display: none;
+    color: var(--mainAccent);
+    align-self: flex-start;
+}
+.errorMsg h6{
+    color: var(--mainAccent);
+}
+.hero_login{
+    padding-top: 0;
+    margin-top: 0;
+}
+.hero_login .sectionsFlex{
+    margin-top: 0;
+    z-index: 4;
 }

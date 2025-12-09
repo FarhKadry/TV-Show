@@ -33,24 +33,23 @@
             </nav>
         </div>
     </header>
-    <section id="start" class="hero">
-        <div class="sectionsFlex">
-            
-
-            
+    <section id="start" class="hero hero_login">
+        <div class="sectionsFlex flex_column">
+            <form>
+        <label for="name">username</label>
+        <input id="Uname" type="text" placeholder="enter your name here">
+        <label for="password">password</label>
+        <input id="Upass" type="password" placeholder="enter your password">
+        <span class="errorMsg" id="err"></span>
+    </form>
+<div class="button-wrapper">
+            <button onclick="login()" class="button1">login</button>
+    </div>
         </div>
         <video class="scene1" src="public/images/scene1.mp4" autoplay muted loop></video>
         <img class="overlay1" src="public/images/overlay1.svg" alt="Overlay Image 1">
     </section>
-        <div class="flex_column">
-                <img class="illus1" src="public/images/illustration1.svg" alt="">
-                <h2 class="text_align_center">
-                captain america:
-            </h2>
-            <h3 class="text_align_center"><i>The trilogy</i></h3>
-            <h4 class="text_align_center cta1"><i>get your DVD now!</i></h4>
-            </div>
-    </section>
+        
     <footer class="sectionsFlex">
         <div class="footer_container">
             <div class="flex_column footerItem">

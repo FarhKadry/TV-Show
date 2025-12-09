@@ -1,3 +1,10 @@
+// PRELOADER
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("preLoader").style.display = "none";
+  }, 1000);
+});
+// PRELOADER
 let navItems = [
     {
         id: "start",
@@ -103,11 +110,7 @@ function add(numbers) {
   let number = document.getElementById(numbers).innerHTML;
   document.getElementById(numbers).innerHTML = ++number;
 };
-window.addEventListener("load", () => {
-  setTimeout(() => {
-    document.getElementById("preLoader").style.display = "none";
-  }, 3000);
-});
+
 function closeCart() {
   document.getElementById('advert').style.display ="none";
 };
@@ -122,12 +125,11 @@ function login(){
     }
     
     else{
-        document.getElementById("err").innerHTML=`<h6>Error!</h6>`
+        document.getElementById("err").innerHTML=`<h6>the password and email combination are incorrect!!</h6>`
         document.getElementById("err").style.display="inline-block"
+        document.getElementById("err").style.color="var(--mainAccent)"
     }
     }
-
-    
     localStorage.setItem("localName", Uname);
     localStorage.setItem("localPass", Upass);
 }
