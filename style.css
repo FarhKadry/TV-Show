@@ -16,6 +16,7 @@
     font-family: "Chakra Petch";
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
+    scroll-behavior: smooth;
 }
 header{
     display: flex;
@@ -257,6 +258,9 @@ button{
     top: 0; 
     left: 0;
     z-index: -1;
+}
+.fadeanim{
+    animation: fade-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .rotateanim{
     animation: rotate 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -515,7 +519,7 @@ footer .logo{
     padding-left: 0;
     padding-top: 0;
     justify-self: flex-start;
-     align-self: center;
+    align-self: center;
 }
 .characterImg{
     height: 90vh;
@@ -546,4 +550,12 @@ footer .logo{
     border: 1px solid var(--white, #FFF);
     background: var(--buttonbg, #101925);
     opacity: 1;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
