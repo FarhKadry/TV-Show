@@ -496,9 +496,9 @@ margin-top: 23px;
 }
 footer .logo{
     width: 136px;
-height: 55px;
-margin-top: 42px;
-align-self: flex-end;
+    height: 55px;
+    margin-top: 42px;
+    align-self: flex-end;
 }
 .footerItem2{
     align-items: flex-end;
