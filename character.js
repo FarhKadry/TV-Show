@@ -22,3 +22,13 @@ document.getElementById("charVidContainer").innerHTML = `
         <source src="${selectedChar.vid}" type="video/mp4">
     </video>
 `;
+document.getElementById("quoteCont").innerHTML = `
+    <img class="icon1" src="public/images/icon2.svg" alt="">
+            <h2>Quote</h2>
+            <p> ${selectedChar.quote} </p>
+`;
+document.getElementById("factCont").innerHTML = `
+    <img class="icon1" src="public/images/icon3.svg" alt="">
+            <h2>Fact</h2>
+            <p> ${selectedChar.fact} </p>
+`;

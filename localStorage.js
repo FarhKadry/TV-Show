@@ -2,17 +2,17 @@ let charDetails = [
     {
         name: "CPt. america",
         img: "public/images/char1.png",
-        job: "Super Soldier . Avenger . Leader",
+        job: "avenger . war veteran .  super soldier",
         icon: "public/images/stariconred.svg",
         bio: `Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war-mongering organization while trying to save his best friend Bucky Barnes from a brainwashing program.`,
         vid:"public/images/clip01.mp4",
         quote: `"The price of freedom is high. It always has been. And it's a price I'm willing to pay." – Steve Rogers`,
-        fact: `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
+        fact: `Steve Rogers was born on July 4, 1918, which is fitting given his patriotic persona as Captain America.`,
     },
     {
         name: "Winter sodier",
         img: "public/images/char2.png",
-        job: "Assassin ",
+        job: "Assassin . super soldier . HYDRA war weapon",
         icon: "public/images/stariconred.svg",
         bio: ` a brainwashed HYDRA assassin, Steve Rogers' long-lost best friend, revealed as the perpetrator behind attacks on S.H.I.E.L.D., ultimately confronting Captain America and Black Widow, leading to the unveiling of HYDRA's infiltration and his eventual confrontation with his past as he started to break free from mind control.`,
         vid:"public/images/clip02.mp4",
@@ -26,18 +26,18 @@ let charDetails = [
         icon: "public/images/stariconred.svg",
         bio: `a top S.H.I.E.L.D. agent working alongside Cap, revealing her spy skills while confronting HYDRA's infiltration, facing her past as a Red Room assassin, and ultimately exposing HYDRA's control over S.H.I.E.L.D., which leads to her becoming a fugitive but also freeing herself from her manipulative past by releasing classified files, proving her deep loyalty and complex heroism. `,
         vid:"public/images/clip03.mp4",
-        quote: `"I'm with you 'til the end of the line." – Bucky Barnes`,
-        fact: `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
+        quote: `"You’re not gonna put me in a prison. You’re not gonna put any of us in a prison. You know why? Because you need us." – Natasha Romanoff`,
+        fact: `in the movie, natasha romonoff goes by the alias "Natalia Alianovna Romanova," and was born in 1984, while in the comics, she was born with that alias was in 1928, meaning she had a similar super soldier experince to steve rogers' and bucky barnes'.`,
     },
     {
         name: "the falcon",
         img: "public/images/char4.png",
-        job: "avenger . SHEILD Agent",
+        job: "avenger . SHEILD Agent . ex-pararescue airman ",
         icon: "public/images/stariconred.svg",
         bio: `Sam Wilson was a former United States Air Force pararescue airman. He left active duty after his wingman, Riley, was killed in action, and subsequently began working as a counselor, helping other veterans deal with post-traumatic stress disorder (PTSD).`,
         vid:"public/images/clip04.mp4",
         quote: `"On your left." – Sam Wilson`,
-        fact: `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
+        fact: `The iconic "on your left" line between Sam Wilson and Steve Rogers was improvised by Anthony Mackie during filming.`,
     }
 ]
 localStorage.setItem("localCharacters", JSON.stringify(charDetails));
