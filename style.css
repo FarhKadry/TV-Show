@@ -528,3 +528,22 @@ footer .logo{
     align-items: flex-start;
     gap: 22px;
 }
+.charJob{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+.charJob h3 {
+    font-weight: 700;
+    margin-top: 12px;
+}
+.charJob .iconPos{
+    height: 46px;
+    width: auto;
+}
+.button2{
+    border-radius: 34px;
+    border: 1px solid var(--white, #FFF);
+    background: var(--buttonbg, #101925);
+    opacity: 1;
+}
