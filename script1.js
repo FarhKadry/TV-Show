@@ -60,5 +60,6 @@ let funFacts = [
 ];
 let randomFunFacts = Math.floor(Math.random() * funFacts.length);
     document.getElementById("Facts1").innerHTML = funFacts[randomFunFacts];
+
 let storylineText = `Steve Rogers, along with Black Widow and Falcon, must uncover the secrets hidden within S.H.I.E.L.D., while also battling a dangerous new enemy, who is only known as The Winter Soldier.`;
 document.getElementById("storyline").innerHTML = storylineText;

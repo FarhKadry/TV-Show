@@ -10,7 +10,7 @@ let charDetails = [
         fact: `Steve Rogers was born on July 4, 1918, which is fitting given his patriotic persona as Captain America.`,
     },
     {
-        name: "Winter sodier",
+        name: "Winter soldier",
         img: "public/images/char2.png",
         job: "Assassin . super soldier . HYDRA war weapon",
         icon: "public/images/stariconred.svg",
@@ -27,7 +27,7 @@ let charDetails = [
         bio: `a top S.H.I.E.L.D. agent working alongside Cap, revealing her spy skills while confronting HYDRA's infiltration, facing her past as a Red Room assassin, and ultimately exposing HYDRA's control over S.H.I.E.L.D., which leads to her becoming a fugitive but also freeing herself from her manipulative past by releasing classified files, proving her deep loyalty and complex heroism. `,
         vid:"public/images/clip03.mp4",
         quote: `"You’re not gonna put me in a prison. You’re not gonna put any of us in a prison. You know why? Because you need us." – Natasha Romanoff`,
-        fact: `in the movie, natasha romonoff goes by the alias "Natalia Alianovna Romanova," and was born in 1984, while in the comics, she was born with that alias was in 1928, meaning she had a similar super soldier experince to steve rogers' and bucky barnes'.`,
+        fact: `in the movie, natasha goes by "Natalia Alianovna Romanova," and was born in 1984, while in the comics, she was born with that alias was in 1928, meaning she had a similar super soldier experince to steve and bucky '.`,
     },
     {
         name: "the falcon",

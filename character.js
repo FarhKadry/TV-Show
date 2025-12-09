@@ -13,7 +13,7 @@ document.getElementById("characterDeets").innerHTML = `
         <p>${selectedChar.bio}</p>
         <div class="socials">
             <a href="index.html"><button class="button1 button2">Back</button></a>
-            <div class="button-wrapper"><button class="button1">START</button></div>
+            <a href="#facts"><div class="button-wrapper"><button class="button1">more</button></div></a>
         </div>
     </div>
 `;
