@@ -509,3 +509,22 @@ footer .logo{
     font-style: normal;
     
 }
+.heroContent2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 0;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.characterImg{
+    height: 588px;
+    width: auto;
+}
+.charDetails{
+    display: flex;
+width: 693px;
+flex-direction: column;
+align-items: flex-start;
+gap: 22px;
+}
