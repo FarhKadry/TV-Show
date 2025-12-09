@@ -46,5 +46,13 @@ let users = [
         Uname: "student@eui.edu.eg",
         Upass: 123456,
     },
+    {
+        Uname: "student@eui.edu.eg",
+        Upass: 123456,
+    },
+    {
+        Uname: "student@eui.edu.eg",
+        Upass: 123456,
+    },
 ]
 localStorage.setItem("localUsers", JSON.stringify(users))

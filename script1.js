@@ -2,7 +2,7 @@
 window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("preLoader").style.display = "none";
-  }, 1000);
+  }, 2000);
 });
 // PRELOADER
 let navItems = [
@@ -133,3 +133,23 @@ function login(){
     localStorage.setItem("localName", Uname);
     localStorage.setItem("localPass", Upass);
 }
+document.getElementById("footerCont").innerHTML=`
+<div class="flex_column footerItem">
+            <h2>Always on <br> your left.</h2>
+            <h3>© 2025 <br> MarveI. <br> All rights <br> reserved.</h3>
+        </div>
+        <div class="footer_sheildCont">
+            <div>
+            <img class=" rotateanim3" src="public/images/CapSheild.png" alt="">
+            </div>
+        </div>
+        <div class="flex_column footerItem footerItem2">
+            <h2>Our Socials</h2>
+            <div class="socials">
+                <a href="#"><img src="public/images/facebook.svg"></a>
+                <a href="#"><img src="public/images/twitter.svg"></a>
+                <a href="#"><img src="public/images/Vector.svg"></a>
+            </div>
+            <img class="logo" src="public/images/marvelLogo.svg" alt="">
+        </div>
+`

@@ -455,6 +455,9 @@ background-image: url(public/images/container2.svg);
 footer{
     background: var(--navyBg2);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 .footer_container{
     max-width: 1290px;
@@ -607,7 +610,7 @@ footer .logo{
 .popUp{
     width: 100vw;
     height: 100vh;
-    background: #0000008c;
+    background: #000000f1;
     top:0px;
     left: 0; 
     z-index: 999999;
@@ -675,7 +678,7 @@ footer .logo{
 form{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
     border: 1px solid var(--mainAccent);
     display: flex;
@@ -715,6 +718,14 @@ form label{
     margin-top: 0;
 }
 .hero_login .sectionsFlex{
-    margin-top: 0;
+    margin-top: 50px;
     z-index: 4;
+    gap: 22px;
+}
+.sheild_login{
+     width: 144px;
+    height: 144px;
+}
+input:focus{
+    border: 1px solid var(--mainAccent);
 }
