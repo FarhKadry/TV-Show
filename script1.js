@@ -31,3 +31,29 @@ for (let i = 0; i < charCardDeets.length; i++) {
         </div>
     `;
 }
+
+ let quote = [
+    `"The price of freedom is high. It always has been. And it's a price I'm willing to pay." – Steve Rogers`,
+    `"I'm with you 'til the end of the line." – Steve Rogers, Bucky Barnes`,
+    `"You're not gonna put me in a prison. You're not gonna put any of us in a prison. You know why? Because you need us." – Natasha Romanoff`,
+    `"The truth is a matter of circumstances; it's not all things to all people all the time. And neither am I." – Natasha Romanoff`,
+    `"This isn't freedom. This is fear." – Steve Rogers`,
+    `"Even when I had nothing, I had Bucky." – Steve Rogers`,
+    `"There's a chance you might be in the wrong business, Rogers."- Natasha Romanoff`,
+    `"The world has changed, and none of us can go back. All we can do is our best, and sometimes the best that we can do is to start over." – Peggy Carter`,
+    `"I know I'm asking a lot. But the price of freedom is high. It always has been. And it's a price I'm willing to pay. And if I'm the only one, then so be it. But I'm willing to bet I'm not." – Steve Rogers`,
+];
+    let randomQuote = Math.floor(Math.random() * quote.length);
+    document.getElementById("Quote").innerHTML = quote[randomQuote];
+
+let funFacts = [
+    `The Winter Soldier's theme music features a distinctive sound created by recording a singer's screams and then distorting them electronically.`,
+    `The Russo Brothers used practical effects and real stunt work wherever possible, with Chris Evans performing many of his own stunts.`,
+    `The film's famous elevator fight scene took several days to shoot and required over 30 stunt performers.`,
+    `Stan Lee's cameo features him as a security guard at the Smithsonian who discovers Captain America's uniform is missing.`,
+    `The film includes references to several future MCU characters including Stephen Strange, who is mentioned by name, as well as a refrence to Moon Knight in Cairo.`,
+    `The movie was the first Marvel film to have a significant impact on the TV series Agents of S.H.I.E.L.D., with HYDRA's revelation affecting both storylines.`,
+    `Captain America's iconic "on your left" running joke with Sam Wilson was improvised by Anthony Mackie during filming.`
+];
+let randomFunFacts = Math.floor(Math.random() * funFacts.length);
+    document.getElementById("Facts1").innerHTML = funFacts[randomFunFacts];
