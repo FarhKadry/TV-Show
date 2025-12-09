@@ -1,3 +1,38 @@
+let navItems = [
+    {
+        id: "start",
+        name: "START",
+        icon: "public/images/headericon.svg"
+    },
+    {
+        id: "story",
+        name: "Story",
+        icon: "public/images/headericon.svg"
+    },
+    {
+        id: "chars",
+        name: "Characters",
+        icon: "public/images/headericon.svg"
+    },
+    {
+        id: "quotesSec",
+        name: "Quotes",
+        icon: "public/images/headericon.svg"
+    }
+];
+
+let navUl = document.getElementById('navArray').querySelector('ul');
+
+for (let i = 0; i < navItems.length; i++) {
+    navUl.innerHTML += `
+    <li>
+        <img src="${navItems[i].icon}">
+        <a href="#${navItems[i].id}">
+            ${navItems[i].name}
+        </a>
+    </li>
+    `;
+}
 let charCardDeets = [
     {
         name: "Captain America",
