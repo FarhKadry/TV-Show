@@ -439,3 +439,31 @@ background-image: url(public/images/container2.svg);
     background: var(--mainAccent);
     width: 137px;
 }
+footer{
+    background: var(--navyBg2);
+    width: 100%;
+}
+.footer_container{
+    max-width: 1290px;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerItem{
+    margin-top: 48px;
+    width: 230px;
+    gap: 23px;
+}
+.footerItem h2{
+    text-transform: none;
+    font-weight: 500;
+line-height: 128%;
+}
+.footerItem h3{
+    text-transform: none;
+    font-weight: 400;
+line-height: 128%;
+margin-top: 23px;
+}
